@@ -42,7 +42,7 @@ public class LightBoard
     if(!lights[row][col] && on % 3 == 0) {
       return true;
     }
-    returnh light[row][col];
+    return light[row][col];
   }
   public boolean[][] getLights()
   {
